@@ -49,6 +49,12 @@ body {
   object-position: top;
 }
 
+.attribution {
+  text-align: center;
+  margin: 30px;
+  color: white;
+}
+
 /*TABLET*/
 @media screen and (max-width: 881px) {
   .img-container__background {
@@ -309,5 +315,14 @@ body {
   .content__trademark:nth-of-type(4) {
     width: 80px;
     height: 20px;
+  }
+}
+@media screen and (max-width: 577px) {
+  .attribution {
+    position: absolute;
+    bottom: -20px;
+    text-align: center;
+    margin: 30px;
+    color: white;
   }
 }
